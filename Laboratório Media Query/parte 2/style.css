@@ -1,0 +1,60 @@
+/*
+medidas consideradas
+smartphones - 320px ~ 768px
+desktop -  769px ~ 1200px
+tv - 1201px ~ ++++
+
+
+*/
+@media screen and (max-width:768px){
+.div_verde1{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+
+}
+@media screen and (min-width: 769px) and (max-width:1200px){
+    .div_verde1{
+        width: 100%;
+        height: 50vh;
+        background-color: green;
+    }
+    .div_azul1{
+        width: 100%;
+        height: 50vh;
+        background-color: blue;
+    }
+
+ }
+
+ @media screen and (min-width: 1201px){
+    .div_verde1{
+        width: 100%;
+        height: 20vh;
+        background-color: green;
+    }
+    .div_azul1{
+        width: 100%;
+        height: 20vh;
+        background-color: blue;
+    }
+    .div_cinza{
+        width: 100%;
+        height: 20vh;
+        background-color: gray;
+    }
+    .div_verde2{
+        width: 100%;
+        height: 20vh;
+        background-color: green;
+    }
+    .div_azul2{
+        width: 100%;
+        height: 20vh;
+        background-color: blue;
+    }
+
+ }
+
+
